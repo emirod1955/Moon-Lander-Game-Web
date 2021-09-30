@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    /*background-color: #191d24;*/
+    background-color: #3c3252;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.TextDiv, .ImgBackground{
+    /*background-color: #222831;*/
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 2.5rem;
+    /*color: #EEEEEE;*/
+    color: #EEEEEE;
+    font-size: 2rem;
+}
+
+.TextDiv{
+    background-color: #222831;
+}
+
+.ImgBackground{
+    background-color: #ffffff;
+}
+
+
+
+.TextDiv{
+    max-width: 70rem;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 9.5rem;
+}
+
+#RocketImage{
+    margin: auto;
+    max-width: min-content;
+    border-radius: 2.5rem;
+}
+
+nav{
+    background-color: #222831;
+    width: 100%;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #EEEEEE;
+    text-decoration: inherit;
+}
+
+a{
+    text-decoration: inherit;
+    color: #EEEEEE;
+}
+
+#logo{
+    width: 7rem;
+    margin-left: 2rem;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    background-color: #3498DB;
+    color: #ffffff;
+    border-style: none;
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+button:hover{
+    background-color: #2E86C1;
+    cursor: pointer;
+}
+
+button:active{
+    padding: 0.4rem;
+}
