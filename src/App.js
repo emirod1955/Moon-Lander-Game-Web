@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar';
 import { Home } from './components/Home';
 import { Download } from './components/Download';
+import {Web} from './components/Web';
+
 
 
 
@@ -18,7 +20,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/download" exact component={() => <Download />} />
-          <Route path="/web-player" exact component={() => <Download />} />
+          <Route path="/web" exact component={() => <Web />} />
         </Switch>
       </Router>
     </React.Fragment>

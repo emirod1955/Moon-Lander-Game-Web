@@ -8,7 +8,7 @@ const Home = () =>{
     return(
         <div className="Divs">
             <div className="ImgBackground">
-                <img id="RocketImage" src="https://i.pinimg.com/originals/67/b2/a9/67b2a9ba5e85822f237caae92111e938.gif"/>
+                <img id="RocketImage" src="https://i.pinimg.com/originals/67/b2/a9/67b2a9ba5e85822f237caae92111e938.gif" alt="Rocket IMG"/>
                 
             </div>
 

@@ -20,7 +20,7 @@ function NavBar(props){
                         Download
                     </Link>
                 </li>
-                <li class={`nav-item  ${props.location.pathname === "/web" ? "active" : ""}`}>
+                <li id="li" class={`nav-item  ${props.location.pathname === "/web" ? "active" : ""}`}>
                     <Link class="nav-link" to="/web">
                         Play web version
                     </Link>
