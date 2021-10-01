@@ -10,18 +10,18 @@ function NavBar(props){
         <nav>
             <ul>
                 <li id="liImg"><img src="https://i.ibb.co/n163KC1/Untitled.png" alt="Unnamed" border="0" id="logo"/></li>
-                <li id="li" class={`nav-item  ${props.location.pathname === "/" ? "active" : ""}`}>
-                    <Link class="nav-link" to="/">
+                <li id="li" className={`nav-item  ${props.location.pathname === "/" ? "active" : ""}`}>
+                    <Link className="nav-link" to="/">
                         Home
                     </Link>
                 </li>
-                <li id="li" class={`nav-item  ${props.location.pathname === "/download" ? "active" : ""}`}>
-                    <Link class="nav-link" to="/download">
+                <li id="li" className={`nav-item  ${props.location.pathname === "/download" ? "active" : ""}`}>
+                    <Link className="nav-link" to="/download">
                         Download
                     </Link>
                 </li>
-                <li id="li" class={`nav-item  ${props.location.pathname === "/web" ? "active" : ""}`}>
-                    <Link class="nav-link" to="/web">
+                <li id="li" className={`nav-item  ${props.location.pathname === "/web" ? "active" : ""}`}>
+                    <Link className="nav-link" to="/web">
                         Play web version
                     </Link>
                 </li>

@@ -1,11 +1,13 @@
+//Import React
 import React from "react";
 
-import '../styles/styles.css';
+//Import styles
+import '../styles/download.css';
 
 
 function Web(){
     return(
-        <h1>Hola</h1>    
+        <h1>Web game player</h1>
     );
 }
 

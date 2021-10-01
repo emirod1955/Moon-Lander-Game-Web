@@ -7,7 +7,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
-    /*background-color: #191d24;*/
     background-color: #3c3252;
 }
 
@@ -15,28 +14,33 @@ body{
     font-size: 1.6rem;
 }
 
-.TextDiv, .ImgBackground{
-    /*background-color: #222831;*/
-    background-color: #ffffff;
+.TextDiv, .ImgBackground, .MacOSText, .WindowsText{
     padding: 1rem;
     margin: 3rem;
     border-radius: 2.5rem;
-    /*color: #EEEEEE;*/
-    color: #EEEEEE;
     font-size: 2rem;
+}
+
+.WindowsText{
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .TextDiv{
     background-color: #222831;
+    color: #EEEEEE;
+}
+
+.MacOSText{
+    background-color: #EEEEEE;
+    color: #222831;
 }
 
 .ImgBackground{
     background-color: #ffffff;
 }
 
-
-
-.TextDiv{
+.TextDiv, .MacOSText, .WindowsText{
     max-width: 70rem;
     padding: 2.5rem;
     display: flex;
@@ -94,6 +98,7 @@ button{
     padding: 0.5rem;
     margin-top: 0.7rem;
     border-radius: 0.5rem;
+    width: 100%;
 }
 
 button:hover{
@@ -103,4 +108,65 @@ button:hover{
 
 button:active{
     padding: 0.4rem;
+}
+
+#WindowsButton{
+    background-color: #00aef0;
+}
+
+#MacOSButton{
+    background-color: #646464;
+}
+
+#LinuxButton{
+    background-color: #ff942a;
+}
+
+.MacOSBox, .LinuxBox, .WindowsBox, .LinuxBox{
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 2.5rem;
+    font-size: 2rem;
+    background-color: #ffffff;
+}
+
+.WindowsBox{
+    background-color: #00aef0;
+}
+
+.DivsDownload{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    align-items: center;
+}
+
+#WindowsImage, #LinuxImage{
+    width: 100%;
+    border-radius: 2.5rem;
+}
+
+.WindowsImageBox{
+    width: 80rem;
+    margin-right: 5rem;
+}
+
+.LinuxImageBox{
+    /*margin-right: 5rem;*/
+    width: 80rem;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinuxBox{
+    justify-content: center;
+    align-items: center;
+}
+
+#LinuxImage{
+    width: 40rem;
 }

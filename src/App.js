@@ -8,10 +8,6 @@ import { Home } from './components/Home';
 import { Download } from './components/Download';
 import {Web} from './components/Web';
 
-
-
-
-
 function App() {
   return (
     <React.Fragment>
@@ -21,6 +17,7 @@ function App() {
           <Route path="/" exact component={() => <Home />} />
           <Route path="/download" exact component={() => <Download />} />
           <Route path="/web" exact component={() => <Web />} />
+          
         </Switch>
       </Router>
     </React.Fragment>
