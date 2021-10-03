@@ -19,20 +19,8 @@ function Download(){
                         </div>
 
                         <div className="MacOSText">
-                            <h1>Download for MacOS</h1>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
+                            
+                            <h1>Download for <b id="MacOSLetter">MacOS</b></h1>
                             <Link className="DownloadHome" to="/download">
                                 <button id="MacOSButton">Download now</button>
                             </Link>
@@ -48,23 +36,15 @@ function Download(){
                         </div>
 
                         <div className="WindowsText">
-                            <h1>Download for Windows</h1>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            <Link className="DownloadHome" to="/download">
-                                <button id="WindowsButton">Download now</button>
-                            </Link>
+                            <h1>Download for <b id="WindowsLetter">Windows</b></h1>
+                            <div className="Buttons">
+                                <Link className="DownloadWindows1" to="/download">
+                                    <button id="WindowsButton">Download for 32 bits</button>
+                                </Link>
+                                <Link className="DownloadWindows2" to="/download">
+                                    <button id="WindowsButton2">Download for 64 bits</button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,25 +52,13 @@ function Download(){
 
                 <div className="LinuxBox">
                     <div className="DivsDownload"> 
+                        
                         <div className="LinuxImageBox">
                             <img id="LinuxImage" src="https://elmegafono.net/wp-content/uploads/2019/06/409-linux.png" alt="Rocket IMG"/>   
                         </div>
 
                         <div className="MacOSText">
-                            <h1>Download for Linux</h1>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                            <br/>
-                            <br/>
+                            <h1>Download for <b id="LinuxLetter">Linux</b></h1>
                             <Link className="DownloadHome" to="/download">
                                 <button id="LinuxButton">Download now</button>
                             </Link>

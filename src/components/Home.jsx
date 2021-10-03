@@ -13,22 +13,16 @@ const Home = () =>{
             </div>
 
             <div className="TextDiv">
-                <h1>Unnamed lander game</h1>
-                <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                <br/>
-                <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                <br/>
-                <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                <br/>
-                <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
-                <br/>
-                <br/>
+                <h1>Moon Lander Game</h1>
+               <br />
+               We have developed the solution to the poor accessibility of scientific data. An intuitive and interesting video game/simulator, able to encourage young people to investigate the wonders of the Universe and space missions.
+<br /><br />
+We present: Moon Lander, a video game with real physics where the user must control a rocket and accomplish the mission.
+<br /><br />
+The game has a protagonist and a good amount of data, emphasizing the next mission of Artemis.
+<br />
                 <Link className="DownloadHome" to="/download">
-                <button id="button">Download</button>
+                <button id="button">See download options</button>
                 </Link>
             </div>
         </div>

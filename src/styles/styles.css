@@ -14,11 +14,14 @@ body{
     font-size: 1.6rem;
 }
 
-.TextDiv, .ImgBackground, .MacOSText, .WindowsText{
+.TextDiv, .ImgBackground, .MacOSText, .WindowsText, .TetxDivHome, 
+.StarshipText, .SimulatorCodeText, .AstronautText, .MissionText, 
+.RaptorText{
     padding: 1rem;
     margin: 3rem;
+    margin-right: 10rem;
     border-radius: 2.5rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .WindowsText{
@@ -26,28 +29,44 @@ body{
     color: #000000;
 }
 
-.TextDiv{
+.TextDiv, .MissionText{
     background-color: #222831;
     color: #EEEEEE;
 }
 
-.MacOSText{
+.MacOSText, .SimulatorCodeText, .RaptorText{
     background-color: #EEEEEE;
     color: #222831;
+}
+
+.StarshipText{
+    background-color: #090b0e;
+    color: #EEEEEE;
+}
+
+.AstronautText{
+    background-color: #6a6a6a;
+    color: #EEEEEE;
+}
+
+.MissionText{
+        background-color: #6a6a6a;
+    color: #EEEEEE;
 }
 
 .ImgBackground{
     background-color: #ffffff;
 }
 
-.TextDiv, .MacOSText, .WindowsText{
+.TextDiv, .MacOSText, .WindowsText, .StarshipText, 
+.SimulatorCodeText, .AstronautText, .MissionText, 
+.RaptorText{
     max-width: 70rem;
     padding: 2.5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-
 
 .Divs{
     display: flex;
@@ -62,9 +81,21 @@ body{
     border-radius: 2.5rem;
 }
 
-nav{
+nav, .footer{
     background-color: #222831;
     width: 100%;
+}
+
+.footer{
+        display: flex;
+        align-items: center;
+        left: 0;
+        bottom: 0;
+        color: white;
+        height: 3rem;
+        padding-left: 2rem;
+        font-size: 1rem;
+        position: fixed;
 }
 
 nav li{
@@ -77,6 +108,11 @@ nav li{
     text-decoration: inherit;
 }
 
+#LinkDecoration{
+    color: #0042a6;
+    text-decoration: underline #0042a6;
+}
+
 a{
     text-decoration: inherit;
     color: #EEEEEE;
@@ -87,7 +123,7 @@ a{
     margin-left: 2rem;
 }
 
-h1{
+h1, h2{
     text-align: center;
 }
 
@@ -99,6 +135,7 @@ button{
     margin-top: 0.7rem;
     border-radius: 0.5rem;
     width: 100%;
+    height: 3.5rem;
 }
 
 button:hover{
@@ -110,7 +147,7 @@ button:active{
     padding: 0.4rem;
 }
 
-#WindowsButton{
+#WindowsButton, #WindowsButton2{
     background-color: #00aef0;
 }
 
@@ -122,7 +159,9 @@ button:active{
     background-color: #ff942a;
 }
 
-.MacOSBox, .LinuxBox, .WindowsBox, .LinuxBox{
+.MacOSBox, .LinuxBox, .WindowsBox, .LinuxBox, 
+.StarshipBox, .SimulatorCode, .AstronautBox, 
+.MissionBox, .TimeLineBox, .RaptorBox, .ManualBox{
     padding: 1rem;
     margin: 3rem;
     border-radius: 2.5rem;
@@ -130,8 +169,32 @@ button:active{
     background-color: #ffffff;
 }
 
+.SimulatorCode{
+    background-color: #ffffff;
+}
+
+.TimeLineBox{
+    background-color: #000000;
+}
+
+.StarshipBox, .MissionBox{
+    background-color: #7b7b7b;
+}
+
+.RaptorBox{
+    background-color: #3c3c3c;
+}
+
 .WindowsBox{
     background-color: #00aef0;
+}
+
+.AstronautBox{
+    background-color: #767676;
+}
+
+.ManualBox{
+    background-color: #EEEEEE;
 }
 
 .DivsDownload{
@@ -169,4 +232,52 @@ button:active{
 
 #LinuxImage{
     width: 40rem;
+}
+
+#MacOSLetter{
+    color: #646464;
+}
+
+#WindowsLetter{
+    color: #00aef0;
+}
+
+#LinuxLetter{
+    color: #ff942a;
+}
+
+.Buttons{
+    display: flex;
+}
+
+.DownloadWindows1, .DownloadWindows2{
+    width: 100%;
+}
+
+.DownloadWindows1{
+    margin-right: 2rem;
+}
+
+#StarshipImage{
+    max-width: 90rem;
+}
+
+#UruguayImage{
+    width: 1.5rem;
+}
+
+.FooterUnnamed{
+    display: flex;
+    justify-content: right;
+    margin-left: 65%;
+}
+
+img{
+    border-radius: 2.5rem;
+}
+
+#MissionsTitle{
+    margin-top: 2rem;
+    color: #EEEEEE;
+    font-size: 5rem;
 }
