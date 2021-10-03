@@ -24,7 +24,7 @@ function Resources (){
                     <div className="SimulatorCodeText">
                             <h1>Simulator code</h1>
                             <br />
-                            <h2><a id="LinkDecoration" href="https://github.com/veinad/planetary-lander" target="_blank" rel="noreferrer">Github link</a></h2>
+                            <h2><a id="LinkDecoration" href="https://github.com/veinad/Moon-Lander" target="_blank" rel="noreferrer">Github link</a></h2>
                         </div>
                         <div className="StarshipImageBox">
                             <img id="StarshipImage" src="https://cdn-icons-png.flaticon.com/512/5080/5080026.png" alt="Rocket IMG"/>   

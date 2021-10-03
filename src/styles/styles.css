@@ -177,8 +177,12 @@ button:active{
     background-color: #000000;
 }
 
-.StarshipBox, .MissionBox{
+.MissionBox{
     background-color: #7b7b7b;
+}
+
+.StarshipBox{
+    background-color: #010302;
 }
 
 .RaptorBox{

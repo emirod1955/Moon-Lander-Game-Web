@@ -32,7 +32,7 @@ function About (){
                     <div className="WindowsText">
                             <h1>Who to play</h1>
                             <br />
-                            <h2><a id="LinkDecoration" href="https://nasa3d.arc.nasa.gov/detail/astronaut" target="_blank" rel="noreferrer">Manual</a></h2>
+                            <h2><a id="LinkDecoration" href="https://sourceb.in/XSq9Ehdmlm" target="_blank" rel="noreferrer">Manual</a></h2>
                         </div>
                         <div className="StarshipImageBox">
                             <img id="StarshipImage" src="https://cdn-icons-png.flaticon.com/512/4403/4403511.png" alt="Rocket IMG"/>   
