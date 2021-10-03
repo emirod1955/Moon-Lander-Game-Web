@@ -127,7 +127,7 @@ h1, h2{
     text-align: center;
 }
 
-button{
+input{
     background-color: #3498DB;
     color: #ffffff;
     border-style: none;
@@ -138,12 +138,12 @@ button{
     height: 3.5rem;
 }
 
-button:hover{
+input:hover{
     background-color: #2E86C1;
     cursor: pointer;
 }
 
-button:active{
+input:active{
     padding: 0.4rem;
 }
 

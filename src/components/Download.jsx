@@ -1,7 +1,5 @@
 //Import React
 import React from "react";
-import { Link } from 'react-router-dom'
-
 
 //Import styles
 import '../styles/styles.css';
@@ -21,9 +19,9 @@ function Download(){
                         <div className="MacOSText">
                             
                             <h1>Download for <b id="MacOSLetter">MacOS</b></h1>
-                            <Link className="DownloadHome" to="/download">
-                                <button id="MacOSButton">Download now</button>
-                            </Link>
+
+                            <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="MacOSButton" type="button" value="Download now"></input></a>
+
                         </div>
                     </div>
                 </div>
@@ -38,12 +36,12 @@ function Download(){
                         <div className="WindowsText">
                             <h1>Download for <b id="WindowsLetter">Windows</b></h1>
                             <div className="Buttons">
-                                <Link className="DownloadWindows1" to="/download">
-                                    <button id="WindowsButton">Download for 32 bits</button>
-                                </Link>
-                                <Link className="DownloadWindows2" to="/download">
-                                    <button id="WindowsButton2">Download for 64 bits</button>
-                                </Link>
+                                <div className="DownloadWindows1">
+                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="WindowsButton" type="button" value="Download for 32 bits"></input></a>
+                                </div>
+                                <div className="DownloadWindows2">
+                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="WindowsButton2" type="button" value="Download for 64 bits"></input></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,9 +57,8 @@ function Download(){
 
                         <div className="MacOSText">
                             <h1>Download for <b id="LinuxLetter">Linux</b></h1>
-                            <Link className="DownloadHome" to="/download">
-                                <button id="LinuxButton">Download now</button>
-                            </Link>
+                               <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="LinuxButton" type="button" value="Download now"></input></a>
+        
                         </div>
                     </div>
                 </div>
