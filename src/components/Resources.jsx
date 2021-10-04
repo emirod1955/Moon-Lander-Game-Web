@@ -43,6 +43,7 @@ function Resources (){
                         </div>
                     </div>
                 </div>
+                
                 <div className="RaptorBox">
                     <div className="DivsDownload"> 
                     <div className="RaptorText">
@@ -54,8 +55,8 @@ function Resources (){
                             <img id="StarshipImage" src="https://i.ibb.co/5r8dX3H/raptor-nivel-del-mar.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
-                </div>
-                <div className="RaptorBox">
+                <hr />
+                
                     <div className="DivsDownload"> 
                     <div className="RaptorText">
                             <h1>Raptor Vacuum engine design</h1>
@@ -66,9 +67,9 @@ function Resources (){
                             <img id="StarshipImage" src="https://i.ibb.co/L1HfdHy/raptor-de-vacio.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
-                </div>
+                
+<hr />
 
-                <div className="RaptorBox">
                     <div className="DivsDownload"> 
                     <div className="RaptorText">
                             <h1>Starship design</h1>

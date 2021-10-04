@@ -86,6 +86,11 @@ nav, .footer{
     width: 100%;
 }
 
+nav{
+    position: fixed;
+    top: 0rem;
+}
+
 .footer{
         display: flex;
         align-items: center;
