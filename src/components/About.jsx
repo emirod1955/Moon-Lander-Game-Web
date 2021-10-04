@@ -30,7 +30,7 @@ function About (){
                 <div className="ManualBox">
                     <div className="DivsDownload"> 
                     <div className="WindowsText">
-                            <h1>How to place</h1>
+                            <h1>How to play</h1>
                             <br />
                             <h2><a id="LinkDecoration" href="https://sourceb.in/XSq9Ehdmlm" target="_blank" rel="noreferrer">Manual</a></h2>
                         </div>
