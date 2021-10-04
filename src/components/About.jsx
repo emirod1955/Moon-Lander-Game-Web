@@ -20,7 +20,7 @@ function About (){
                                 <b>Country</b>: Uruguay
                             </p>
                             <br />
-                            <h2><a id="LinkDecoration" href="https://sourceb.in/XSq9Ehdmlm" target="_blank" rel="noreferrer">Astronaut 3D design</a></h2>
+                            <h2><a id="LinkDecoration" href="https://nasa3d.arc.nasa.gov/detail/astronaut" target="_blank" rel="noreferrer">Astronaut 3D design</a></h2>
                         </div>
                         <div className="StarshipImageBox">
                             <img id="StarshipImage" src="https://i.ibb.co/4203jtH/astronauta.png" alt="Rocket IMG"/>   
@@ -30,7 +30,7 @@ function About (){
                 <div className="ManualBox">
                     <div className="DivsDownload"> 
                     <div className="WindowsText">
-                            <h1>Who to play</h1>
+                            <h1>How to place</h1>
                             <br />
                             <h2><a id="LinkDecoration" href="https://sourceb.in/XSq9Ehdmlm" target="_blank" rel="noreferrer">Manual</a></h2>
                         </div>

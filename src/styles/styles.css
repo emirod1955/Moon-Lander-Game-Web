@@ -241,7 +241,6 @@ button:active{
 }
 
 .LinuxImageBox{
-    /*margin-right: 5rem;*/
     width: 80rem;
     justify-content: center;
     display: flex;
