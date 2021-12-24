@@ -1,14 +1,15 @@
-//react
+//import react
 import React from 'react';
+
+//import route libraly
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //import components
-import NavBar from './components/NavBar';
-import { Home } from './components/Home';
-import { Download } from './components/Download';
-import {Resources} from './components/Resources';
-import {Footer} from './components/Footer';
-import { About } from './components/About';
+import NavBar from './components/NavBar/NavBar';
+import { Home } from './components/Home/Home';
+import { Download } from './components/Download/Download';
+import {Footer} from './components/Footer/Footer';
+import { About } from './components/About/About';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
-          <Route path="/resources" exact component={() => <Resources />} />
           <Route path="/download" exact component={() => <Download />} />
+          <Route path="/sign in" exact component={() => <Download />} />
+          <Route path="/sign up" exact component={() => <Download />} />
         </Switch>
         <Footer/>
       </Router>

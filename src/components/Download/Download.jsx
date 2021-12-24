@@ -2,17 +2,17 @@
 import React from "react";
 
 //Import styles
-import '../styles/styles.css';
+import './Download.css';
 
 
 function Download(){
     return(          
             <div className="download">
-                
 
+                
                 <div className="MacOSBox">
                     <div className="DivsDownload"> 
-                        <div className="MacOSImageBox">
+                        <div>
                             <img id="AppleImage" src="https://camo.githubusercontent.com/6c1b3c0aee1fbf3885dc250f490e5fb2bb1ba1e5b4a7afa24a5547126945bd4a/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136313531372f73637265656e73686f74732f373839363037362f6170706c652d6c6f676f2d616e696d6174696f6e2e676966" alt="Rocket IMG"/>   
                         </div>
 

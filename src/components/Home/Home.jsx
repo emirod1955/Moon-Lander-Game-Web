@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 
 //Import styles
-import '../styles/styles.css';
+import './Home.css';
 
 const Home = () =>{
     return(
@@ -23,8 +23,8 @@ const Home = () =>{
                 The game has a protagonist and a good amount of data, emphasizing the next mission of Artemis.
                 <br />
                 </p>
-                <Link className="DownloadHome" to="/download">
-                <button id="button">See download options</button>
+                <Link to="/download">
+                <button className="button">See download options</button>
                 </Link>
             </div>
         </div>

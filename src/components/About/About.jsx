@@ -2,7 +2,7 @@
 import React from "react";
 
 //Import styles
-import '../styles/styles.css';
+import './About.css';
 
 function About (){
     return(
@@ -22,7 +22,7 @@ function About (){
                             <br />
                             <h2><a id="LinkDecoration" href="https://nasa3d.arc.nasa.gov/detail/astronaut" target="_blank" rel="noreferrer">Astronaut 3D design</a></h2>
                         </div>
-                        <div className="StarshipImageBox">
+                        <div>
                             <img id="StarshipImage" src="https://i.ibb.co/4203jtH/astronauta.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function About (){
                             <br />
                             <h2><a id="LinkDecoration" href="https://sourceb.in/XSq9Ehdmlm" target="_blank" rel="noreferrer">Manual</a></h2>
                         </div>
-                        <div className="StarshipImageBox">
+                        <div>
                             <img id="StarshipImage" src="https://cdn-icons-png.flaticon.com/512/4403/4403511.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
@@ -47,7 +47,7 @@ function About (){
                             <br />
                             <h2><a id="LinkDecoration" href="https://nasa3d.arc.nasa.gov/detail/Apollo11-Landing" target="_blank" rel="noreferrer">Apolo 11 3D terrain</a></h2>
                         </div>
-                        <div className="StarshipImageBox">
+                        <div>
                             <img id="StarshipImage" src="https://i.ibb.co/F0LY3ts/apolo-11-removebg-preview.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function About (){
                             <br />
                             <h2><a id="LinkDecoration" href="https://nasa3d.arc.nasa.gov/detail/Apollo14-Landing" target="_blank" rel="noreferrer">Apolo 14 3D terrain</a></h2>
                         </div>
-                        <div className="StarshipImageBox">
+                        <div>
                             <img id="StarshipImage" src="https://i.ibb.co/px0M1Bh/apolo-14-removebg-preview.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
@@ -73,7 +73,7 @@ function About (){
                             <br />
                             <h2><a id="LinkDecoration" href="https://nasa3d.arc.nasa.gov/detail/Apollo17-Landing" target="_blank" rel="noreferrer">Apolo 17 3D terrain</a></h2>
                         </div>
-                        <div className="StarshipImageBox">
+                        <div>
                             <img id="StarshipImage" src="https://i.ibb.co/6gw6Lwq/apolo-17-removebg-preview.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
@@ -82,7 +82,7 @@ function About (){
                 <div className="TimeLineBox">
                     <h1 id="MissionsTitle">The simulator missions ubicated in time</h1>
                     <div className="DivsDownload"> 
-                        <div className="StarshipImageBox">
+                        <div>
                             <img id="StarshipImage" src="https://i.ibb.co/dWjrvcT/time-line.png" alt="Rocket IMG"/>   
                         </div>
                     </div>

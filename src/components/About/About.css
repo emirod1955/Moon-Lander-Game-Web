@@ -1,0 +1,107 @@
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: #3C3252;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: inherit;
+    color: #EEEEEE;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+img{
+    border-radius: 2.5rem;
+}
+
+#LinkDecoration{
+    color: #0042a6;
+    text-decoration: underline #0042a6;
+}
+/*CHARACTERISTICS OF ABOUT COMPONENT*/
+
+.AstronautBox, .ManualBox, .MissionBox, .TimeLineBox{
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 2.5rem;
+    font-size: 2rem;
+    background-color: #ffffff;
+}
+
+.AstronautBox{
+    background-color: #767676;
+}
+
+.ManualBox{
+    background-color: #EEEEEE;
+}
+
+.TimeLineBox{
+    background-color: #000000;
+}
+
+.MissionBox{
+    background-color: #7b7b7b;
+}
+
+.DivsDownload{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    align-items: center;
+}
+
+.AstronautText, .WindowsText, .MissionText{
+    margin-right: 10rem;
+    max-width: 70rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.5rem;
+    margin: 3rem;
+    border-radius: 2.5rem;
+    font-size: 3rem;
+}
+
+.MissionText{
+    background-color: #6a6a6a;
+    color: #EEEEEE;
+}
+
+.AstronautText{
+    background-color: #6a6a6a;
+    color: #EEEEEE;
+}
+
+.WindowsText{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#StarshipImage{
+    max-width: 90rem;
+}
+
+#MissionsTitle{
+    margin-top: 2rem;
+    color: #EEEEEE;
+    font-size: 5rem;
+}
+
+

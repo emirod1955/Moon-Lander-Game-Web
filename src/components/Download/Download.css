@@ -1,0 +1,162 @@
+/*GENERAL CHARACTARISTICS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: #3C3252;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: inherit;
+    color: #EEEEEE;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+img{
+    border-radius: 2.5rem;
+}
+
+#LinkDecoration{
+    color: #0042a6;
+    text-decoration: underline #0042a6;
+}
+
+input{
+    background-color: #3498DB;
+    color: #ffffff;
+    border-style: none;
+    padding: 0.5rem;
+    margin-top: 0.7rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 3.5rem;
+}
+
+input:hover{
+    background-color: #2E86C1;
+    cursor: pointer;
+}
+
+input:active{
+    padding: 0.4rem;
+}
+
+/*CHARACTERISTICS OF DOWNLOAD COMPONENT*/
+
+.MacOSBox, .LinuxBox, .WindowsBox{
+    padding: 1rem;
+    margin: 3rem;
+    border-radius: 2.5rem;
+    font-size: 2rem;
+    background-color: #ffffff;
+}
+
+.LinuxBox{
+    justify-content: center;
+    align-items: center;
+}
+
+.DivsDownload{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    align-items: center;
+}
+
+.MacOSText, .Windowstext{
+    margin: 3rem;
+    border-radius: 2.5rem;
+    font-size: 3rem;
+    margin-right: 10rem;
+    max-width: 70rem;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.MacOSText{
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+#MacOSLetter{
+    color: #646464;
+}
+
+#MacOSButton{
+    background-color: #646464;
+}
+
+.WindowsBox{
+    background-color: #00aef0;
+}
+
+.WindowsImageBox{
+    width: 80rem;
+    margin-right: 5rem;
+}
+
+#WindowsImage, #LinuxImage{
+    width: 100%;
+    border-radius: 2.5rem;
+}
+
+#LinuxImage{
+    width: 40rem;
+}
+
+.WindowsText{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#WindowsLetter{
+    color: #00aef0;
+}
+
+.Buttons{
+    display: flex;
+}
+
+.DownloadWindows1, .DownloadWindows2{
+    width: 100%;
+}
+
+.DownloadWindows1{
+    margin-right: 2rem;
+}
+
+.LinuxImageBox{
+    width: 80rem;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#LinuxLetter{
+    color: #ff942a;
+}
+
+#LinuxButton{
+    background-color: #ff942a;
+}
+
+
+
+
