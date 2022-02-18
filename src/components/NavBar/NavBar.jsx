@@ -28,19 +28,10 @@ function NavBar(props){
                         </Link>
                     </li>
                     <li id="liPlay" className={`nav-menu-item  ${props.location.pathname === "/web" ? "active" : ""}`}>
-                        <a href="https://veinad.itch.io/moon-lander-the-game" target="_blank" rel="noreferrer">Play web version</a>
-                    </li>
-                    <li id="signIn" className={`nav-menu-item  ${props.location.pathname === "/" ? "active" : ""}`}>
-                        <Link className="nav-link" to="/sign in">
-                            Sign in
-                        </Link>
-                    </li>
-                    <li id="signUp" className={`nav-menu-item  ${props.location.pathname === "/" ? "active" : ""}`}>
-                        <Link className="nav-link" to="/sign up">
-                            Sign up
-                        </Link>
+                        <a href="https://veinad.itch.io/moon-lander-the-game" target="_blank" rel="noreferrer">Play beta</a>
                     </li>
                 </ul>
+                <img className="userImage" src="https://i.ibb.co/zr3gC5t/image-6.png" alt="" srcset=""/>
             </nav>
         </header>  
     );
