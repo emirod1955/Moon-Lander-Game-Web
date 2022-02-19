@@ -40,7 +40,7 @@ function Download(){
                                     <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="WindowsButton" type="button" value="Download for 32 bits"></input></a>
                                 </div>
                                 <div className="DownloadWindows2">
-                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="WindowsButton2" type="button" value="Download for 64 bits"></input></a>
+                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="WindowsButton" type="button" value="Download for 64 bits"></input></a>
                                 </div>
                             </div>
                         </div>

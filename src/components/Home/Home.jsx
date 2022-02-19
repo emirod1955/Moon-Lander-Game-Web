@@ -58,7 +58,7 @@ const Home = () =>{
 
                 <div className="Divs"> 
                 <div className="TextDiv">
-                    <h2 className="subtitle">THE GAME</h2>
+                    <h2 className="subtitle">HOW TO PLAY</h2>
                     <br />
                     <p>
                         We have developed the solution to the poor accessibility of scientific data. An intuitive and interesting video game/simulator, able to encourage young people to investigate the wonders of the Universe and space missions.
@@ -69,11 +69,11 @@ const Home = () =>{
                     <br />
                     </p>
                     <div className="Buttons">
-                                <div className="DownloadWindows1">
-                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="WindowsButton" type="button" value="Download for 32 bits"></input></a>
+                                <div className="HomeButton1">
+                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="HomeButtonYoutube" type="button" value="Youtube tutorial"></input></a>
                                 </div>
-                                <div className="DownloadWindows2">
-                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="WindowsButton2" type="button" value="Download for 64 bits"></input></a>
+                                <div className="HomeButton2">
+                                    <a href="https://drive.google.com/file/d/1FOFxHdBVBZ6d_BeXz9hDCLAu1abCDGh_/view?usp=sharing"><input id="HomeButtonPDF" type="button" value="Manual PDF"></input></a>
                                 </div>
                             </div>
                 </div>

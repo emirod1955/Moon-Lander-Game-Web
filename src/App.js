@@ -9,7 +9,6 @@ import NavBar from './components/NavBar/NavBar';
 import { Home } from './components/Home/Home';
 import { Download } from './components/Download/Download';
 import {Footer} from './components/Footer/Footer';
-import { About } from './components/About/About';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <NavBar/>
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/about" exact component={() => <About />} />
           <Route path="/download" exact component={() => <Download />} />
           <Route path="/sign in" exact component={() => <Download />} />
           <Route path="/sign up" exact component={() => <Download />} />

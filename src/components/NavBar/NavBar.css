@@ -55,23 +55,17 @@ h1, h2{
 
 .userImage{
     max-height: 4rem;
-    /*margin: auto;
-    /*margin-top: 2rem;
-    margin-right: 3rem;*/
-    /*margin: auto;*/
     padding: 0 4rem;
     margin-top: 2rem;
 }
 
 .nav-menu{
     display: flex;
-    /*margin-right: 4rem;*/
     list-style: none;
     margin: auto;
 }
 
 .nav-menu-item{
-    /*font-size: 1.8rem;*/
     font-size: 2.3rem;
     margin: 0 5rem;
     line-height: 8rem;
@@ -86,8 +80,11 @@ h1, h2{
     padding: 0 2rem;
     line-height: 6rem;
     cursor: pointer;
-
     display: none;
+}
+
+.nav-link, .PlayBeta, .logo{
+    color: #ffffff;
 }
 
 @media (max-width: 768px){

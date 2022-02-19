@@ -31,7 +31,7 @@ h1, h2{
     text-decoration: underline #0042a6;
 }
 
-input{
+#WindowsButton, #LinuxButton, #MacOSButton{
     background-color: #3498DB;
     color: #ffffff;
     border-style: none;
@@ -42,12 +42,12 @@ input{
     height: 3.5rem;
 }
 
-input:hover{
+#WindowsButton:hover{
     background-color: #2E86C1;
     cursor: pointer;
 }
 
-input:active{
+#WindowsButton:active{
     padding: 0.4rem;
 }
 
@@ -75,16 +75,16 @@ input:active{
     align-items: center;
 }
 
-.MacOSText, .Windowstext{
-    margin: 3rem;
-    border-radius: 2.5rem;
-    font-size: 3rem;
+.MacOSText, .WindowsText{
     margin-right: 10rem;
     max-width: 70rem;
-    padding: 2.5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 2.5rem;
+    margin: 3rem;
+    border-radius: 2.5rem;
+    font-size: 3rem;
 }
 
 .MacOSText{
@@ -137,10 +137,6 @@ input:active{
 
 .DownloadWindows1{
     margin-right: 2rem;
-}
-
-.HomeButton1{
-    width: 100%;
 }
 
 .LinuxImageBox{
