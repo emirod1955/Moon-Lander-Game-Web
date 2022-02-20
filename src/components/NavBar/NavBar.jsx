@@ -17,8 +17,8 @@ function NavBar(props){
                             Home
                         </Link>
                     </li>
-                    <li className={`nav-menu-item  ${props.location.pathname === "/about" ? "active" : ""}`}>
-                        <Link className="nav-link" to="/about">
+                    <li className={`nav-menu-item  ${props.location.pathname === "/community" ? "active" : ""}`}>
+                        <Link className="nav-link" to="/community">
                         Community
                         </Link>
                     </li>

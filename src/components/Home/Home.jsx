@@ -78,18 +78,6 @@ const Home = () =>{
                             </div>
                 </div>
             </div>
-                
-                    {/*<div className="DivsDownload"> 
-                    <div className="WindowsText">
-                            <h1>How to play</h1>
-                            <br />
-                            <h2><a id="LinkDecoration" href="https://sourceb.in/XSq9Ehdmlm" target="_blank" rel="noreferrer">Manual</a></h2>
-                        </div>
-                        <div>
-                            <img id="StarshipImage" src="https://cdn-icons-png.flaticon.com/512/4403/4403511.png" alt="Rocket IMG"/>   
-                        </div>
-                    </div>  */} 
-            
                     
             <div className="TimeLineBox">
                     <h1 className="subtitle">THE SIMULATOR MISSIONS UBICATED IN TIME</h1>
