@@ -39,7 +39,7 @@ const Contact = () => {
     <div className="todoForm">
     <form className="form" onSubmit={handleSubmit}>
       <div className="formularios">
-      <h1 className="contactTitle">Contact Us 🤳</h1>
+      <h1 className="contactTitle">Contact Us 📬</h1>
 
 
       <label>Name</label>
@@ -70,7 +70,8 @@ const Contact = () => {
 
       <button
         type="submit"
-        style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
+        style={{ background: loader ? "#EEEEEE" : "#fff" }}
+        id="submitButton"
       >
         Submit
       </button>

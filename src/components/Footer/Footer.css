@@ -45,6 +45,7 @@ h1, h2{
     height: 5rem;
     padding: 1rem;
     font-size: 1rem;
+    position: fixed;
 }
 
 a{
