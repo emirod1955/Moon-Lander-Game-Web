@@ -150,7 +150,7 @@ button:hover{
 }
 
 #HomeButtonPDF:hover{
-    background-color: #ffffff;
+    background-color: #DEDEDE;
     cursor: pointer;
 }
 
@@ -173,7 +173,7 @@ button:hover{
 }
 
 #HomeButtonYoutube:hover{
-    background-color: #fe0000;
+    background-color: #A93226;
     cursor: pointer;
 }
 

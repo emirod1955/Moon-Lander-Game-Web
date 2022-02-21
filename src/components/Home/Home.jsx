@@ -83,7 +83,7 @@ const Home = () =>{
                     <h1 className="subtitle">THE SIMULATOR MISSIONS UBICATED IN TIME</h1>
                     <div className="DivsDownload"> 
                         <div>
-                            <img id="StarshipImage" src="https://i.ibb.co/dWjrvcT/time-line.png" alt="Rocket IMG"/>   
+                            <img id="StarshipImage" src="https://i.ibb.co/GJYFvfc/image-4.png" alt="Rocket IMG"/>   
                         </div>
                     </div>
                 </div>

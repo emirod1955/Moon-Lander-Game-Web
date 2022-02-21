@@ -39,7 +39,7 @@ const Contact = () => {
     <div className="todoForm">
     <form className="form" onSubmit={handleSubmit}>
       <div className="formularios">
-      <h1 className="contactTitle">Contact Us 📬</h1>
+      <h1 id="contactTitle">Contact Us 📬</h1>
 
 
       <label>Name</label>
