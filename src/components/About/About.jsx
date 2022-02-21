@@ -1,6 +1,5 @@
 //Import React
 import React from "react";
-import YoutubeEmbed from "./YoutubeEmbed";
 
 //Import styles
 import './About.css';
@@ -39,7 +38,6 @@ function About (){
                             <img id="StarshipImage" src="https://cdn-icons-png.flaticon.com/512/4403/4403511.png" alt="Rocket IMG"/>   
                         </div>
                     </div>  */}
-                    <YoutubeEmbed embedId="ThiCMd5kGbE"/>
                 </div>
                 <div className="MissionBox">
                     <h1 id="MissionsTitle">Future missions to uplode to the simulator...</h1>

@@ -139,6 +139,10 @@ input:active{
     margin-right: 2rem;
 }
 
+.HomeButton1{
+    width: 100%;
+}
+
 .LinuxImageBox{
     width: 80rem;
     justify-content: center;
@@ -154,7 +158,3 @@ input:active{
 #LinuxButton{
     background-color: #ff942a;
 }
-
-
-
-

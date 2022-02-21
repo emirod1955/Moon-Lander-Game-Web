@@ -39,7 +39,6 @@ h1, h2{
 .nav{
     display: flex;
     justify-content: space-between;
-    /*max-width: 992px;*/
     background-color: #272727;
     border-radius: 10rem;
     margin-top: 2rem;
@@ -59,8 +58,9 @@ h1, h2{
     /*margin: auto;
     /*margin-top: 2rem;
     margin-right: 3rem;*/
+    /*margin: auto;*/
     padding: 0 4rem;
-    
+    margin-top: 2rem;
 }
 
 .nav-menu{
@@ -91,6 +91,10 @@ h1, h2{
 }
 
 @media (max-width: 768px){
+    .userImage{
+        margin-top: 1rem;
+    }
+    
     .header{
         height: 6rem;
     }
